@@ -26,12 +26,12 @@ struct HomeView: View {
                     Image("sys").resizable().frame(width: 20, height: 20, alignment: .center)
                 }
                 
-                Button {
-                    
+                NavigationLink {
+                    GOAPersonalCenterView()
                 } label: {
                     Image("home_icon_wode").resizable().frame(width: 24, height: 24, alignment: .center)
                 }
-
+                
             })
         }
     }

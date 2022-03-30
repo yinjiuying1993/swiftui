@@ -10,7 +10,7 @@ class HomeData:ObservableObject {
     @Published var data:[HomeItemModel]
     init(){
         data = [
-            HomeItemModel(id: 1, title: "带我审批", imageUrl: "home_icon_dwsp", type: 1),
+            HomeItemModel(id: 1, title: "待我审批", imageUrl: "home_icon_dwsp", type: 1),
             HomeItemModel(id: 2,title: "考勤管理", imageUrl: "home_icon_kqgl", type: 2),
             HomeItemModel(id: 3,title: "发起的流程", imageUrl: "home_icon_fqlc", type: 3),
             HomeItemModel(id: 4,title: "请假", imageUrl: "home_icon_qj", type: 4),

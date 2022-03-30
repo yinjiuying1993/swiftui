@@ -36,7 +36,6 @@ class GOAHomeViewController: UIViewController {
         self.addChild(hVC)
         self.view.addSubview(hVC.view)
         hVC.view.frame = UIScreen.main.bounds
-        hVC.view.backgroundColor = .orange
     
     }
     

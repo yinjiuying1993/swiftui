@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2B88FE9B386A35C3CCAE4F4A /* Pods_oa_ios_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */; };
+		8A5D231227F4397D009B7D4D /* GOAMyInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */; };
+		8AB6E3A827F153280034A467 /* PersonalCenterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */; };
+		8AB6E3AC27F18D120034A467 /* GOAAbortUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */; };
+		8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */; };
+		8AB6E3B027F1B5C00034A467 /* GOAVacationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AF27F1B5C00034A467 /* GOAVacationCell.swift */; };
+		8AB6E3B227F1B5FC0034A467 /* GOAVacationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3B127F1B5FC0034A467 /* GOAVacationModel.swift */; };
+		8AB6E3B927F3F9D20034A467 /* GOAVacationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3B827F3F9D20034A467 /* GOAVacationData.swift */; };
+		8AB6E3BE27F3FA970034A467 /* GOAMyInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3BD27F3FA970034A467 /* GOAMyInfoModel.swift */; };
+		8AB6E3C027F3FAD90034A467 /* GOAMyInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3BF27F3FAD90034A467 /* GOAMyInfoData.swift */; };
+		8AB6E3C227F3FB5D0034A467 /* GOAMyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3C127F3FB5D0034A467 /* GOAMyInfoView.swift */; };
+		8AB6E3C427F3FC9F0034A467 /* GOAMyInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3C327F3FC9F0034A467 /* GOAMyInfoHeaderView.swift */; };
 		8ACCFB5227E17D9500343023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACCFB5127E17D9500343023 /* Assets.xcassets */; };
 		8ACCFB5527E17D9500343023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACCFB5427E17D9500343023 /* Preview Assets.xcassets */; };
 		8ACCFB6327E1807A00343023 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFB6227E1807A00343023 /* NetworkManager.swift */; };
@@ -28,9 +39,25 @@
 		8ACCFBAC27E46F6700343023 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBAB27E46F6700343023 /* HomeCell.swift */; };
 		8ACCFBAE27E473F900343023 /* HomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBAD27E473F900343023 /* HomeItemModel.swift */; };
 		8ACCFBB027E476F400343023 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBAF27E476F400343023 /* HomeData.swift */; };
+		8ACCFBD127E8574E00343023 /* GOAPersonalCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBD027E8574E00343023 /* GOAPersonalCenterView.swift */; };
+		8ACCFBD327E85C0C00343023 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBD227E85C0C00343023 /* Macro.swift */; };
+		8ACCFBD727E85E8B00343023 /* PersonalCenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBD627E85E8B00343023 /* PersonalCenterCell.swift */; };
+		8ACCFBD927E863BA00343023 /* PersonalCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBD827E863BA00343023 /* PersonalCenterModel.swift */; };
+		8ACCFBDB27E8645200343023 /* PersonalCenterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCFBDA27E8645200343023 /* PersonalCenterData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoCellView.swift; sourceTree = "<group>"; };
+		8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterHeaderView.swift; sourceTree = "<group>"; };
+		8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAAbortUsView.swift; sourceTree = "<group>"; };
+		8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationView.swift; sourceTree = "<group>"; };
+		8AB6E3AF27F1B5C00034A467 /* GOAVacationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationCell.swift; sourceTree = "<group>"; };
+		8AB6E3B127F1B5FC0034A467 /* GOAVacationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationModel.swift; sourceTree = "<group>"; };
+		8AB6E3B827F3F9D20034A467 /* GOAVacationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationData.swift; sourceTree = "<group>"; };
+		8AB6E3BD27F3FA970034A467 /* GOAMyInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoModel.swift; sourceTree = "<group>"; };
+		8AB6E3BF27F3FAD90034A467 /* GOAMyInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoData.swift; sourceTree = "<group>"; };
+		8AB6E3C127F3FB5D0034A467 /* GOAMyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoView.swift; sourceTree = "<group>"; };
+		8AB6E3C327F3FC9F0034A467 /* GOAMyInfoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoHeaderView.swift; sourceTree = "<group>"; };
 		8ACCFB4A27E17D9300343023 /* oa-ios-new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oa-ios-new.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACCFB5127E17D9500343023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ACCFB5427E17D9500343023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,6 +82,11 @@
 		8ACCFBAB27E46F6700343023 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		8ACCFBAD27E473F900343023 /* HomeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemModel.swift; sourceTree = "<group>"; };
 		8ACCFBAF27E476F400343023 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		8ACCFBD027E8574E00343023 /* GOAPersonalCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAPersonalCenterView.swift; sourceTree = "<group>"; };
+		8ACCFBD227E85C0C00343023 /* Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		8ACCFBD627E85E8B00343023 /* PersonalCenterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterCell.swift; sourceTree = "<group>"; };
+		8ACCFBD827E863BA00343023 /* PersonalCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterModel.swift; sourceTree = "<group>"; };
+		8ACCFBDA27E8645200343023 /* PersonalCenterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterData.swift; sourceTree = "<group>"; };
 		8F0532523357B33C4E263357 /* Pods-oa-ios-new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oa-ios-new.release.xcconfig"; path = "Target Support Files/Pods-oa-ios-new/Pods-oa-ios-new.release.xcconfig"; sourceTree = "<group>"; };
 		A7049F64426F33748D85A090 /* Pods-oa-ios-new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oa-ios-new.debug.xcconfig"; path = "Target Support Files/Pods-oa-ios-new/Pods-oa-ios-new.debug.xcconfig"; sourceTree = "<group>"; };
 		DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oa_ios_new.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +119,80 @@
 				DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AB6E3B327F3F8860034A467 /* Vacation */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3B427F3F8860034A467 /* Model */,
+				8AB6E3B527F3F8860034A467 /* View */,
+				8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */,
+			);
+			path = Vacation;
+			sourceTree = "<group>";
+		};
+		8AB6E3B427F3F8860034A467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3B127F1B5FC0034A467 /* GOAVacationModel.swift */,
+				8AB6E3B827F3F9D20034A467 /* GOAVacationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AB6E3B527F3F8860034A467 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3AF27F1B5C00034A467 /* GOAVacationCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AB6E3B627F3F8F20034A467 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3BA27F3FA5F0034A467 /* MyInfo */,
+				8AB6E3B727F3F9740034A467 /* AbortUs */,
+				8ACCFBCD27E856F900343023 /* PersonalCenter */,
+				8AB6E3B327F3F8860034A467 /* Vacation */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		8AB6E3B727F3F9740034A467 /* AbortUs */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */,
+			);
+			path = AbortUs;
+			sourceTree = "<group>";
+		};
+		8AB6E3BA27F3FA5F0034A467 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3BB27F3FA5F0034A467 /* Model */,
+				8AB6E3BC27F3FA5F0034A467 /* View */,
+				8AB6E3C127F3FB5D0034A467 /* GOAMyInfoView.swift */,
+			);
+			path = MyInfo;
+			sourceTree = "<group>";
+		};
+		8AB6E3BB27F3FA5F0034A467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3BD27F3FA970034A467 /* GOAMyInfoModel.swift */,
+				8AB6E3BF27F3FAD90034A467 /* GOAMyInfoData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AB6E3BC27F3FA5F0034A467 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E3C327F3FC9F0034A467 /* GOAMyInfoHeaderView.swift */,
+				8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8ACCFB4127E17D9300343023 = {
@@ -148,6 +254,7 @@
 		8ACCFB5C27E1800800343023 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				8AB6E3B627F3F8F20034A467 /* Setting */,
 				8ACCFB7427E1841000343023 /* Home */,
 			);
 			path = Pages;
@@ -182,6 +289,7 @@
 			children = (
 				8ACCFB7027E1832700343023 /* LaunchViewManager.swift */,
 				8ACCFB7C27E1E14700343023 /* AllExtension.swift */,
+				8ACCFBD227E85C0C00343023 /* Macro.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -247,6 +355,34 @@
 				8ACCFB8727E2E15D00343023 /* oa-ios-new-Bridging-Header.h */,
 			);
 			path = BridgeFile;
+			sourceTree = "<group>";
+		};
+		8ACCFBCD27E856F900343023 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8ACCFBCE27E8570400343023 /* Model */,
+				8ACCFBCF27E8571300343023 /* View */,
+				8ACCFBD027E8574E00343023 /* GOAPersonalCenterView.swift */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		8ACCFBCE27E8570400343023 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8ACCFBD827E863BA00343023 /* PersonalCenterModel.swift */,
+				8ACCFBDA27E8645200343023 /* PersonalCenterData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ACCFBCF27E8571300343023 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ACCFBD627E85E8B00343023 /* PersonalCenterCell.swift */,
+				8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,20 +500,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACCFBD127E8574E00343023 /* GOAPersonalCenterView.swift in Sources */,
 				8ACCFB7627E1844E00343023 /* GOAHomeViewController.swift in Sources */,
 				8ACCFB8127E2D60900343023 /* HomeView.swift in Sources */,
+				8AB6E3C427F3FC9F0034A467 /* GOAMyInfoHeaderView.swift in Sources */,
 				8ACCFBAC27E46F6700343023 /* HomeCell.swift in Sources */,
+				8ACCFBDB27E8645200343023 /* PersonalCenterData.swift in Sources */,
+				8ACCFBD327E85C0C00343023 /* Macro.swift in Sources */,
 				8ACCFBAE27E473F900343023 /* HomeItemModel.swift in Sources */,
+				8AB6E3AC27F18D120034A467 /* GOAAbortUsView.swift in Sources */,
 				8ACCFB7327E183D700343023 /* AppDelegate.swift in Sources */,
+				8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */,
 				8ACCFB6B27E180A800343023 /* BaseViewController.swift in Sources */,
 				8ACCFB7B27E1C01600343023 /* NetworkApi.swift in Sources */,
 				8ACCFB7127E1832700343023 /* LaunchViewManager.swift in Sources */,
+				8ACCFBD727E85E8B00343023 /* PersonalCenterCell.swift in Sources */,
 				8ACCFB7927E1B5A500343023 /* UrlConfig.swift in Sources */,
+				8ACCFBD927E863BA00343023 /* PersonalCenterModel.swift in Sources */,
 				8ACCFB6A27E180A800343023 /* BaseNavigationController.swift in Sources */,
+				8A5D231227F4397D009B7D4D /* GOAMyInfoCellView.swift in Sources */,
 				8ACCFB6D27E180A800343023 /* WKWebViewController.swift in Sources */,
+				8AB6E3C227F3FB5D0034A467 /* GOAMyInfoView.swift in Sources */,
+				8AB6E3B927F3F9D20034A467 /* GOAVacationData.swift in Sources */,
 				8ACCFB6E27E180A800343023 /* KeyWindow.swift in Sources */,
 				8ACCFB7D27E1E14700343023 /* AllExtension.swift in Sources */,
+				8AB6E3B027F1B5C00034A467 /* GOAVacationCell.swift in Sources */,
+				8AB6E3B227F1B5FC0034A467 /* GOAVacationModel.swift in Sources */,
+				8AB6E3A827F153280034A467 /* PersonalCenterHeaderView.swift in Sources */,
 				8ACCFB6C27E180A800343023 /* BaseTabBarController.swift in Sources */,
+				8AB6E3C027F3FAD90034A467 /* GOAMyInfoData.swift in Sources */,
+				8AB6E3BE27F3FA970034A467 /* GOAMyInfoModel.swift in Sources */,
 				8ACCFBB027E476F400343023 /* HomeData.swift in Sources */,
 				8ACCFB8A27E2E15D00343023 /* Dog.m in Sources */,
 				8ACCFB6327E1807A00343023 /* NetworkManager.swift in Sources */,
