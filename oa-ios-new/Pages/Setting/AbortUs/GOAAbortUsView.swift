@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct GOAAbortUsView: View {
-    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
-        VStack {
+      let mainView =  VStack {
             Image("llogin_logo_g").resizable().frame(width: 80, height: 102, alignment: .center).padding(EdgeInsets(top: 50, leading: 0, bottom: 80, trailing: 0))
             VStack {
                 HStack {
@@ -32,11 +32,8 @@ struct GOAAbortUsView: View {
                 }.padding(.bottom,10)
             }.padding().background(Color.white)
             Spacer()
-        }.frame(width: kScreenWidth).background(kDefaultBGColor).navigationBarTitle(Text("关于")).navigationBarBackButtonHidden(true).navigationBarBackButtonHidden(true).navigationBarItems(leading: Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-        }, label: {
-            Image("navigation_back").resizable().frame(width: 12, height: 19, alignment: .center)
-        }))
+        }.frame(width: kScreenWidth)
+       return BaseNavigationBarView(content: mainView, barTitle: "关于")
     }
 }
 

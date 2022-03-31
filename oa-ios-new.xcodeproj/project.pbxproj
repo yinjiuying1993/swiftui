@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		2B88FE9B386A35C3CCAE4F4A /* Pods_oa_ios_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */; };
 		8A5D231227F4397D009B7D4D /* GOAMyInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */; };
+		8A5D231727F54AF4009B7D4D /* GOAChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231627F54AF4009B7D4D /* GOAChangePasswordView.swift */; };
+		8A5D231927F54B13009B7D4D /* GOAChangePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231827F54B13009B7D4D /* GOAChangePasswordModel.swift */; };
+		8A5D231B27F54B23009B7D4D /* GOAChangePasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231A27F54B23009B7D4D /* GOAChangePasswordData.swift */; };
+		8A5D231D27F54EFF009B7D4D /* GOAChangePasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231C27F54EFF009B7D4D /* GOAChangePasswordCell.swift */; };
+		8A5D232127F5A1CC009B7D4D /* BaseNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D232027F5A1CC009B7D4D /* BaseNavigationBarView.swift */; };
 		8AB6E3A827F153280034A467 /* PersonalCenterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */; };
 		8AB6E3AC27F18D120034A467 /* GOAAbortUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */; };
 		8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */; };
@@ -48,6 +53,11 @@
 
 /* Begin PBXFileReference section */
 		8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoCellView.swift; sourceTree = "<group>"; };
+		8A5D231627F54AF4009B7D4D /* GOAChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordView.swift; sourceTree = "<group>"; };
+		8A5D231827F54B13009B7D4D /* GOAChangePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordModel.swift; sourceTree = "<group>"; };
+		8A5D231A27F54B23009B7D4D /* GOAChangePasswordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordData.swift; sourceTree = "<group>"; };
+		8A5D231C27F54EFF009B7D4D /* GOAChangePasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordCell.swift; sourceTree = "<group>"; };
+		8A5D232027F5A1CC009B7D4D /* BaseNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBarView.swift; sourceTree = "<group>"; };
 		8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterHeaderView.swift; sourceTree = "<group>"; };
 		8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAAbortUsView.swift; sourceTree = "<group>"; };
 		8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationView.swift; sourceTree = "<group>"; };
@@ -121,6 +131,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A5D231327F54AC6009B7D4D /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D231427F54AC6009B7D4D /* Model */,
+				8A5D231527F54AC6009B7D4D /* View */,
+				8A5D231627F54AF4009B7D4D /* GOAChangePasswordView.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		8A5D231427F54AC6009B7D4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D231827F54B13009B7D4D /* GOAChangePasswordModel.swift */,
+				8A5D231A27F54B23009B7D4D /* GOAChangePasswordData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A5D231527F54AC6009B7D4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D231C27F54EFF009B7D4D /* GOAChangePasswordCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8AB6E3B327F3F8860034A467 /* Vacation */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +188,7 @@
 		8AB6E3B627F3F8F20034A467 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				8A5D231327F54AC6009B7D4D /* ChangePassword */,
 				8AB6E3BA27F3FA5F0034A467 /* MyInfo */,
 				8AB6E3B727F3F9740034A467 /* AbortUs */,
 				8ACCFBCD27E856F900343023 /* PersonalCenter */,
@@ -247,6 +285,7 @@
 				8ACCFB6527E180A800343023 /* BaseViewController.swift */,
 				8ACCFB6827E180A800343023 /* KeyWindow.swift */,
 				8ACCFB6727E180A800343023 /* WKWebViewController.swift */,
+				8A5D232027F5A1CC009B7D4D /* BaseNavigationBarView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -502,6 +541,7 @@
 			files = (
 				8ACCFBD127E8574E00343023 /* GOAPersonalCenterView.swift in Sources */,
 				8ACCFB7627E1844E00343023 /* GOAHomeViewController.swift in Sources */,
+				8A5D232127F5A1CC009B7D4D /* BaseNavigationBarView.swift in Sources */,
 				8ACCFB8127E2D60900343023 /* HomeView.swift in Sources */,
 				8AB6E3C427F3FC9F0034A467 /* GOAMyInfoHeaderView.swift in Sources */,
 				8ACCFBAC27E46F6700343023 /* HomeCell.swift in Sources */,
@@ -512,9 +552,11 @@
 				8ACCFB7327E183D700343023 /* AppDelegate.swift in Sources */,
 				8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */,
 				8ACCFB6B27E180A800343023 /* BaseViewController.swift in Sources */,
+				8A5D231927F54B13009B7D4D /* GOAChangePasswordModel.swift in Sources */,
 				8ACCFB7B27E1C01600343023 /* NetworkApi.swift in Sources */,
 				8ACCFB7127E1832700343023 /* LaunchViewManager.swift in Sources */,
 				8ACCFBD727E85E8B00343023 /* PersonalCenterCell.swift in Sources */,
+				8A5D231D27F54EFF009B7D4D /* GOAChangePasswordCell.swift in Sources */,
 				8ACCFB7927E1B5A500343023 /* UrlConfig.swift in Sources */,
 				8ACCFBD927E863BA00343023 /* PersonalCenterModel.swift in Sources */,
 				8ACCFB6A27E180A800343023 /* BaseNavigationController.swift in Sources */,
@@ -526,12 +568,14 @@
 				8ACCFB7D27E1E14700343023 /* AllExtension.swift in Sources */,
 				8AB6E3B027F1B5C00034A467 /* GOAVacationCell.swift in Sources */,
 				8AB6E3B227F1B5FC0034A467 /* GOAVacationModel.swift in Sources */,
+				8A5D231B27F54B23009B7D4D /* GOAChangePasswordData.swift in Sources */,
 				8AB6E3A827F153280034A467 /* PersonalCenterHeaderView.swift in Sources */,
 				8ACCFB6C27E180A800343023 /* BaseTabBarController.swift in Sources */,
 				8AB6E3C027F3FAD90034A467 /* GOAMyInfoData.swift in Sources */,
 				8AB6E3BE27F3FA970034A467 /* GOAMyInfoModel.swift in Sources */,
 				8ACCFBB027E476F400343023 /* HomeData.swift in Sources */,
 				8ACCFB8A27E2E15D00343023 /* Dog.m in Sources */,
+				8A5D231727F54AF4009B7D4D /* GOAChangePasswordView.swift in Sources */,
 				8ACCFB6327E1807A00343023 /* NetworkManager.swift in Sources */,
 				8ACCFB6F27E180A800343023 /* BaseToast.swift in Sources */,
 			);

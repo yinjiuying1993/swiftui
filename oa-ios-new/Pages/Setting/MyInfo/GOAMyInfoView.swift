@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GOAMyInfoView: View {
     var body: some View {
-        VStack {
+      let mainView =  VStack {
             List{
                 Section(header: GOAMyInfoHeaderView()) {
                     ForEach(baseInfo) {item in
@@ -18,7 +18,9 @@ struct GOAMyInfoView: View {
                 }
             }.listStyle(.insetGrouped).background(Color.white)
             Spacer()
-        }.background(kDefaultBGColor).navigationTitle("个人资料").padding(.top,-10)
+        }
+        
+        return BaseNavigationBarView(content: mainView, barTitle: "个人资料")
     }
 }
 

@@ -12,3 +12,4 @@ let kScreenWidth = UIScreen.main.bounds.width
 let kScreenHeight = UIScreen.main.bounds.height
 let kDefaultBGColor = Color.init(red: 239 / 255.0, green: 239 / 255.0, blue: 239 / 255.0)
 let kDefaultHeadBGColor = Color.init(red: 158 / 255.0, green: 150 / 255.0, blue: 244 / 255.0)
+let kDefaultThemeColor = Color.init(red: 106 / 255.0, green: 83 / 255.0, blue: 175 / 255.0)

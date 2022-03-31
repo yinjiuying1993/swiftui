@@ -19,6 +19,9 @@ struct PersonalCenterCell: View {
                 if title == "我的假期" {
                     GOAVacationView()
                 }
+                if title == "修改密码" {
+                    GOAChangePasswordView()
+                }
             } label: {
                 Image(iconName).resizable().frame(width: 20, height: 21, alignment: .center).padding(.leading,20)
                 Text(title).padding().foregroundColor(.black)

@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct GOAVacationView: View {
-    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        VStack {
+     let mainView =   VStack {
             HStack {
                 Spacer()
                 Text("假期类型").foregroundColor(.white).font(.title3)
@@ -23,11 +22,8 @@ struct GOAVacationView: View {
                 GOAVacationCell(model: item)
             }.frame(width: kScreenWidth).listStyle(PlainListStyle())
             Spacer()
-        }.background(kDefaultBGColor).navigationTitle(Text("我的假期")).navigationBarBackButtonHidden(true).navigationBarItems(leading: Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-        }, label: {
-            Image("navigation_back").resizable().frame(width: 12, height: 19, alignment: .center)
-        }))
+        }
+        return BaseNavigationBarView(content: mainView, barTitle: "我的假期")
     }
 }
 
