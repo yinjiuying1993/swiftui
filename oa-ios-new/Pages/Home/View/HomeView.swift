@@ -16,11 +16,12 @@ struct HomeView: View {
                 HomeCell(dataSource: HomeData().otherData)
                 Spacer()
                 
-            }.background(kDefaultBGColor).navigationBarTitle("OA",displayMode: .inline).navigationBarItems(leading: Button(action: {
-                
-            }, label: {
+            }.background(kDefaultBGColor).navigationBarTitle("OA",displayMode: .inline).navigationBarItems(leading: NavigationLink {
+                NewsView()
+            } label: {
                 Image("home_icon_xiaoxi").resizable()
-            }), trailing: HStack{
+            }
+, trailing: HStack{
                 //
                 Button {
                     
