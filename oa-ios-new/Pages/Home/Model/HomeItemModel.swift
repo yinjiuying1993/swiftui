@@ -7,7 +7,7 @@
 
 import Foundation
 struct HomeItemModel:Hashable, Codable, Identifiable {
-    var id:Int
+    var id = UUID()
     var title: String
     var imageUrl: String
     var type: Int

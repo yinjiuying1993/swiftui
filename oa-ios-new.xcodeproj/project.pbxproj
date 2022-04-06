@@ -14,6 +14,7 @@
 		8A5D231B27F54B23009B7D4D /* GOAChangePasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231A27F54B23009B7D4D /* GOAChangePasswordData.swift */; };
 		8A5D231D27F54EFF009B7D4D /* GOAChangePasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231C27F54EFF009B7D4D /* GOAChangePasswordCell.swift */; };
 		8A5D232127F5A1CC009B7D4D /* BaseNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D232027F5A1CC009B7D4D /* BaseNavigationBarView.swift */; };
+		8A5D232327F6E736009B7D4D /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D232227F6E736009B7D4D /* HomeHeaderView.swift */; };
 		8AB6E3A827F153280034A467 /* PersonalCenterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */; };
 		8AB6E3AC27F18D120034A467 /* GOAAbortUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */; };
 		8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */; };
@@ -58,6 +59,7 @@
 		8A5D231A27F54B23009B7D4D /* GOAChangePasswordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordData.swift; sourceTree = "<group>"; };
 		8A5D231C27F54EFF009B7D4D /* GOAChangePasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordCell.swift; sourceTree = "<group>"; };
 		8A5D232027F5A1CC009B7D4D /* BaseNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBarView.swift; sourceTree = "<group>"; };
+		8A5D232227F6E736009B7D4D /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		8AB6E3A727F153280034A467 /* PersonalCenterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCenterHeaderView.swift; sourceTree = "<group>"; };
 		8AB6E3AB27F18D120034A467 /* GOAAbortUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAAbortUsView.swift; sourceTree = "<group>"; };
 		8AB6E3AD27F1B58A0034A467 /* GOAVacationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAVacationView.swift; sourceTree = "<group>"; };
@@ -377,6 +379,7 @@
 			children = (
 				8ACCFB8027E2D60900343023 /* HomeView.swift */,
 				8ACCFBAB27E46F6700343023 /* HomeCell.swift */,
+				8A5D232227F6E736009B7D4D /* HomeHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				8AB6E3BE27F3FA970034A467 /* GOAMyInfoModel.swift in Sources */,
 				8ACCFBB027E476F400343023 /* HomeData.swift in Sources */,
 				8ACCFB8A27E2E15D00343023 /* Dog.m in Sources */,
+				8A5D232327F6E736009B7D4D /* HomeHeaderView.swift in Sources */,
 				8A5D231727F54AF4009B7D4D /* GOAChangePasswordView.swift in Sources */,
 				8ACCFB6327E1807A00343023 /* NetworkManager.swift in Sources */,
 				8ACCFB6F27E180A800343023 /* BaseToast.swift in Sources */,

@@ -11,10 +11,12 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HomeCell().padding(.top,15)
+                HomeHeaderView()
+                HomeCell(dataSource: HomeData().data)
+                HomeCell(dataSource: HomeData().otherData)
                 Spacer()
                 
-            }.background(Color.clear).navigationBarTitle("OA",displayMode: .inline).navigationBarItems(leading: Button(action: {
+            }.background(kDefaultBGColor).navigationBarTitle("OA",displayMode: .inline).navigationBarItems(leading: Button(action: {
                 
             }, label: {
                 Image("home_icon_xiaoxi").resizable()
@@ -32,7 +34,7 @@ struct HomeView: View {
                     Image("home_icon_wode").resizable().frame(width: 24, height: 24, alignment: .center)
                 }
                 
-            })
+            }).ignoresSafeArea(.all, edges:.bottom)
         }
     }
 }

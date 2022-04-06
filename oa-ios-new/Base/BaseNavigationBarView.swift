@@ -16,7 +16,7 @@ struct BaseNavigationBarView<Content:View>: View {
             self.presentationMode.wrappedValue.dismiss()
         }, label: {
             Image("navigation_back").resizable().frame(width: 12, height: 19, alignment: .center)
-        })).background(kDefaultBGColor)
+        })).background(kDefaultBGColor).ignoresSafeArea(.all, edges:.bottom)
     }
 }
 
