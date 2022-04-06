@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B88FE9B386A35C3CCAE4F4A /* Pods_oa_ios_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */; };
+		8A21906A27FD35CE00F0335F /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21906927FD35CE00F0335F /* NewsView.swift */; };
+		8A21906C27FD35F600F0335F /* GOANewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21906B27FD35F600F0335F /* GOANewsModel.swift */; };
+		8A21906E27FD360300F0335F /* GOANewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21906D27FD360300F0335F /* GOANewsData.swift */; };
+		8A21907027FD371600F0335F /* GOANewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21906F27FD371600F0335F /* GOANewsCell.swift */; };
+		8A21907627FD871800F0335F /* LynnRefreshDefaultViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21907227FD871800F0335F /* LynnRefreshDefaultViews.swift */; };
+		8A21907727FD871800F0335F /* LynnRefreshState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21907327FD871800F0335F /* LynnRefreshState.swift */; };
+		8A21907827FD871800F0335F /* LynnPullToRefreshModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21907427FD871800F0335F /* LynnPullToRefreshModifier.swift */; };
+		8A21907927FD871800F0335F /* LynnPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21907527FD871800F0335F /* LynnPullToRefresh.swift */; };
 		8A5D231227F4397D009B7D4D /* GOAMyInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */; };
 		8A5D231727F54AF4009B7D4D /* GOAChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231627F54AF4009B7D4D /* GOAChangePasswordView.swift */; };
 		8A5D231927F54B13009B7D4D /* GOAChangePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D231827F54B13009B7D4D /* GOAChangePasswordModel.swift */; };
@@ -53,6 +61,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A21906927FD35CE00F0335F /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		8A21906B27FD35F600F0335F /* GOANewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOANewsModel.swift; sourceTree = "<group>"; };
+		8A21906D27FD360300F0335F /* GOANewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOANewsData.swift; sourceTree = "<group>"; };
+		8A21906F27FD371600F0335F /* GOANewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOANewsCell.swift; sourceTree = "<group>"; };
+		8A21907227FD871800F0335F /* LynnRefreshDefaultViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LynnRefreshDefaultViews.swift; sourceTree = "<group>"; };
+		8A21907327FD871800F0335F /* LynnRefreshState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LynnRefreshState.swift; sourceTree = "<group>"; };
+		8A21907427FD871800F0335F /* LynnPullToRefreshModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LynnPullToRefreshModifier.swift; sourceTree = "<group>"; };
+		8A21907527FD871800F0335F /* LynnPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LynnPullToRefresh.swift; sourceTree = "<group>"; };
 		8A5D231127F4397D009B7D4D /* GOAMyInfoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAMyInfoCellView.swift; sourceTree = "<group>"; };
 		8A5D231627F54AF4009B7D4D /* GOAChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordView.swift; sourceTree = "<group>"; };
 		8A5D231827F54B13009B7D4D /* GOAChangePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOAChangePasswordModel.swift; sourceTree = "<group>"; };
@@ -131,6 +147,44 @@
 				DF30908668A1D009440F5019 /* Pods_oa_ios_new.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A21906627FD359600F0335F /* News */ = {
+			isa = PBXGroup;
+			children = (
+				8A21906727FD359600F0335F /* Model */,
+				8A21906827FD359600F0335F /* View */,
+				8A21906927FD35CE00F0335F /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		8A21906727FD359600F0335F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A21906B27FD35F600F0335F /* GOANewsModel.swift */,
+				8A21906D27FD360300F0335F /* GOANewsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A21906827FD359600F0335F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A21906F27FD371600F0335F /* GOANewsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A21907127FD871800F0335F /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8A21907227FD871800F0335F /* LynnRefreshDefaultViews.swift */,
+				8A21907327FD871800F0335F /* LynnRefreshState.swift */,
+				8A21907427FD871800F0335F /* LynnPullToRefreshModifier.swift */,
+				8A21907527FD871800F0335F /* LynnPullToRefresh.swift */,
+			);
+			path = PullToRefresh;
 			sourceTree = "<group>";
 		};
 		8A5D231327F54AC6009B7D4D /* ChangePassword */ = {
@@ -295,6 +349,7 @@
 		8ACCFB5C27E1800800343023 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				8A21906627FD359600F0335F /* News */,
 				8AB6E3B627F3F8F20034A467 /* Setting */,
 				8ACCFB7427E1841000343023 /* Home */,
 			);
@@ -312,6 +367,7 @@
 		8ACCFB5E27E1800900343023 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				8A21907127FD871800F0335F /* PullToRefresh */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -544,6 +600,7 @@
 			files = (
 				8ACCFBD127E8574E00343023 /* GOAPersonalCenterView.swift in Sources */,
 				8ACCFB7627E1844E00343023 /* GOAHomeViewController.swift in Sources */,
+				8A21907927FD871800F0335F /* LynnPullToRefresh.swift in Sources */,
 				8A5D232127F5A1CC009B7D4D /* BaseNavigationBarView.swift in Sources */,
 				8ACCFB8127E2D60900343023 /* HomeView.swift in Sources */,
 				8AB6E3C427F3FC9F0034A467 /* GOAMyInfoHeaderView.swift in Sources */,
@@ -556,11 +613,15 @@
 				8AB6E3AE27F1B58A0034A467 /* GOAVacationView.swift in Sources */,
 				8ACCFB6B27E180A800343023 /* BaseViewController.swift in Sources */,
 				8A5D231927F54B13009B7D4D /* GOAChangePasswordModel.swift in Sources */,
+				8A21906E27FD360300F0335F /* GOANewsData.swift in Sources */,
+				8A21906C27FD35F600F0335F /* GOANewsModel.swift in Sources */,
 				8ACCFB7B27E1C01600343023 /* NetworkApi.swift in Sources */,
+				8A21906A27FD35CE00F0335F /* NewsView.swift in Sources */,
 				8ACCFB7127E1832700343023 /* LaunchViewManager.swift in Sources */,
 				8ACCFBD727E85E8B00343023 /* PersonalCenterCell.swift in Sources */,
 				8A5D231D27F54EFF009B7D4D /* GOAChangePasswordCell.swift in Sources */,
 				8ACCFB7927E1B5A500343023 /* UrlConfig.swift in Sources */,
+				8A21907727FD871800F0335F /* LynnRefreshState.swift in Sources */,
 				8ACCFBD927E863BA00343023 /* PersonalCenterModel.swift in Sources */,
 				8ACCFB6A27E180A800343023 /* BaseNavigationController.swift in Sources */,
 				8A5D231227F4397D009B7D4D /* GOAMyInfoCellView.swift in Sources */,
@@ -578,7 +639,10 @@
 				8AB6E3BE27F3FA970034A467 /* GOAMyInfoModel.swift in Sources */,
 				8ACCFBB027E476F400343023 /* HomeData.swift in Sources */,
 				8ACCFB8A27E2E15D00343023 /* Dog.m in Sources */,
+				8A21907827FD871800F0335F /* LynnPullToRefreshModifier.swift in Sources */,
+				8A21907627FD871800F0335F /* LynnRefreshDefaultViews.swift in Sources */,
 				8A5D232327F6E736009B7D4D /* HomeHeaderView.swift in Sources */,
+				8A21907027FD371600F0335F /* GOANewsCell.swift in Sources */,
 				8A5D231727F54AF4009B7D4D /* GOAChangePasswordView.swift in Sources */,
 				8ACCFB6327E1807A00343023 /* NetworkManager.swift in Sources */,
 				8ACCFB6F27E180A800343023 /* BaseToast.swift in Sources */,
